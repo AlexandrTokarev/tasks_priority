@@ -1,0 +1,13 @@
+# Enforce Unix newlines
+* text eol=lf
+
+*.ttf     -text diff
+*.eot     -text diff
+*.woff    -text diff
+*.woff2   -text diff
+*.png     -text diff
+*.jpg     -text diff
+*.svg     -text diff
+*.jpeg    -text diff
+*.ico     -text diff
+*.gig     -text diff

@@ -3,8 +3,7 @@
 Используемые библиотеки:
 - React
 - Material UI
-- Moment.js
-- React Sortable HOC
+- @dnd-kit
 
 Описание
 --
