@@ -1,37 +1,37 @@
 {
-	"name": "tasks_priority",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"@material-ui/core": "^4.9.5",
-		"@material-ui/icons": "^4.9.1",
-		"@material-ui/styles": "^4.9.0",
-		"moment": "^2.24.0",
-		"node-sass": "^4.13.1",
-		"react": "^16.13.0",
-		"react-dom": "^16.13.0",
-		"react-scripts": "3.4.0",
-		"react-sortable-hoc": "^1.11.0"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
-	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	}
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "6.1.0",
+    "@dnd-kit/sortable": "8.0.0",
+    "@emotion/react": "11.13.3",
+    "@emotion/styled": "11.13.0",
+    "@mui/icons-material": "6.1.6",
+    "@mui/material": "6.1.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.11.1",
+    "@types/node": "^22.7.8",
+    "@types/react": "18.3.10",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.2",
+    "eslint": "9.11.1",
+    "eslint-plugin-react-hooks": "5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "0.4.12",
+    "globals": "15.9.0",
+    "sass-embedded": "^1.80.3",
+    "typescript": "5.5.3",
+    "typescript-eslint": "8.7.0",
+    "vite": "5.4.8"
+  }
 }

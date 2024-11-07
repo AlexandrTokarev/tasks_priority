@@ -12,5 +12,5 @@
 
 ### Quick start
 - Install dependencies: `npm install`
-- Start the server: `npm run start`
+- Start the server: `npm run dev`
 - Views are on: `localhost:3000`
